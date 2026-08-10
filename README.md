@@ -1,1 +1,1 @@
-<https://www.kuriwaki.github.io>, rerouted to <https://www.shirokuriwaki.com>
+<https://www.joon-hyeok-lee.github.io>
