@@ -11,10 +11,7 @@ github                   : [metadata]
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "UA-166018803-1"
-    anonymize_ip         : # true, false (default)
+  provider               : false
 
 
 sass:
@@ -41,7 +38,6 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - kuriwaki.github.io.Rproj
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
