@@ -1,11 +1,9 @@
 main:
-  - title: "<b>Publications</b>"
-    url: /#pubs
-  - title: "<b>Teaching</b>"
-    url: /#teaching
-  - title: "<b>R Screencasts</b>"
-    url: /screencasts
-  - title: "<b>Datasets</b>"
-    url: /#datasets
-  - title: "<b>C.V.</b>"
-    url: /cv/kuriwaki_cv.pdf
+- title: "About"
+  url: /
+- title: "Research"
+  url: /#research
+- title: "Teaching"
+  url: /#teaching
+- title: "C.V."
+  url: /cv/your_cv.pdf
