@@ -1,68 +1,12 @@
 ---
 layout: bio-sidebar
-title: "Shiro Kuriwaki"
+title: "Joon Hyeok Lee"
 ---
 
 <div class="wrapper">
   <section>
     {% include_cached masthead.html %}
-    <div align="left">
-      <img src="images/kuriwaki_swing-split_hD.png" alt="swing-D" height="160" width="750">
-      <img src="images/kuriwaki_swing-split_hR.png" alt="swing-R" height="160" width="750">
-    </div>
 
-  <div align="left">
-    <h3>News / Data Updates</h3>
-  </div>
-  <ul class="dashed">
-    <li>July 2026: The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/II2DB6">cumulative dataset</a> for the Cooperative Election Study (CES) is updated with 2025 data and minor fixes, V12</li>
-    <li>February 2026: The general election <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DGDRDT">candidate dataset</a> (CAGE) is updated to include 2024 results, V4</li>
-    <li>June 2025: I launched the <i>The Ticket Splitting Visualizer</i>, a first-of-its-kind interactive platform developed to compare ticket splitting
-      across hundreds of pairs of contests, with real ballots: <a href="https://ballots.isps.yale.edu">ballots.isps.yale.edu</a></li>
-  </ul>
-
-
-   <div align="left">
-     <h3 id="wp">Recent Papers</h3>
-   </div>
-      <ol>
-      <li data-bibtex-key="kuriwaki2026confounders"><a href="https://arxiv.org/abs/2601.07668">The Role of Confounders and Linearity in Ecological Inference: A Reassessment</a> (with Cory McCartan). Working Paper, Revised and Resubmitted</li>
-              <details><summary>Abstract</summary>
-                <p>Estimating conditional means using only the marginal means available from aggregate data is known as the ecological inference problem. We reassess this literature, arguing that it has understudied two issues: how practitioners should control for confounding, and how methodologists can leverage the linearity inherent in the structure of the problem. On the former, we formalize ignorability conditions like those in causal inference and outline consistent plug-in estimators: These are credible when covariates make the ignorability condition plausible. On the latter, we show that aggregation restricts the target function to be partially linear. Such linearity clarifies the connections between King's (1997) methodology, its predecessors, and subsequent developments. That motivates a recent doubly-robust technique that enters covariates flexibly while leveraging linearity. Finally, we test these methods in datasets where the ground truth is fortuitously observed. In these common applications, all methods tested were prone to overestimating racial polarization and underestimating split-ticket voting.</p>
-              </details>
-      <li data-bibtex-key="mccartan2025identification"><a href="https://arxiv.org/abs/2509.20194">Identification and Semiparametric Estimation of Conditional Means from Aggregate Data</a> (with Cory McCartan). Working Paper, Under Review</li>
-                <details><summary>Abstract</summary>
-                We introduce a new method for estimating the mean of an outcome variable within groups when researchers only observe the average of the outcome and group indicators across a set of aggregation units, such as geographical areas. Existing methods for this problem, also known as ecological inference, implicitly make strong assumptions about the aggregation process. We first formalize weaker conditions for identification, which motivates estimators that can efficiently control for many covariates. We propose a debiased machine learning estimator that is based on nuisance functions restricted to a partially linear form. Our estimator also admits a semiparametric sensitivity analysis for violations of the key identifying assumption, as well as asymptotically valid confidence intervals for local, unit-level estimates under additional assumptions. Simulations and validation on real-world data where ground truth is available demonstrate the advantages of our approach over existing methods. Open-source software is available which implements the proposed methods.
-                </details>
-      <li data-bibtex-key="ansolabehere2026collective"><a href="https://doi.org/10.1017/S1537592725101916">Collective Representation in Congress</a> (with Stephen Ansolabehere). <b><i>Perspectives on Politics</i></b>, vol. 24, Special Issue 1, pp. 269-288. 2026. [<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E0AWRD">Data</a>] [ISPS <a href="https://isps.yale.edu/news/blog/2025/08/study-shows-80-of-passed-laws-supported-by-majority-of-americans-but-congress">blog</a>]</li>
-                <details><summary>Abstract</summary>
-                The aspiration of representative democracy is that the legislature will make
-                decisions that reflect what the majority of people want. The U.S. Constitution,
-                however, created a Congress with both majoritarian and counter-majoritarian forces.
-                We study public opinion on 103  important issues on the congressional agenda from
-                2006 to 2022 using the Cooperative Congressional Election Study. Congress made decisions
-                that aligned with what the majority wanted on 55  percent of these issues. Analysis
-                of each issue further reveals the circumstances when Congress represents the majority
-                and the many ways that representation fails. The likelihood that the House passes a
-                bill is usually a reflection of public support for that policy, but the ultimate fate
-                of bills depends on partisan control of the two chambers of Congress and the degree
-                of divisiveness (or polarization) between the two party bases in the public. Legislative
-                institutions make it difficult to pass popular issues, but even more difficult to
-                pass unpopular ones. As a result, most representational failure occurs because Congress
-                fails to pass a popular bill, rather than because Congress passes a bill that the public did not want.
-                </details>
-              <li data-bibtex-key="conevska2026partisan"><a href="https://doi.org/10.1017/S0003055425100920">How Partisan are U.S. Local Elections? Evidence from 2020 Cast Vote Records</a>. (with Aleksandra Conevska, Shigeo Hirano, Can Mutlu, Jeffrey B. Lewis, and James M. Snyder, Jr.). <b><i>American Political Science Review</i></b>, vol. 120, no. 2, pp. 564-581. 2026. [Related Publication: <a href="https://www.nature.com/articles/s41597-024-04017-1">CVR Data</a>], [Interactive Tool: <a href="https://ballots.isps.yale.edu">ballots.isps.yale.edu</a>] [<a href="https://doi.org/10.7910/DVN/QHGLJS">Replication Data</a>] </li>
-                <details><summary>Abstract</summary>
-                Analyzing nominally partisan contests, previous literature has argued that state and local politics have nationalized. Here we use individual ballots from the 2020 general elections covering over 43 million voters to study the relationship between individual national partisanship and voting in over 4500 down-ballot contests, including nonpartisan races and ballot measures. Voting in partisan contests can be explained by voter’s national partisanship, consistent with existing literature. However, we find that voting for local nonpartisan offices (n = 1484 contests) and ballot measures (n = 1576) is much less partisan. National partisanship explains more than 80 percent of the within-contest variation in voting for partisan state and local offices but less than 10 percent for local spending-related ballot measures. Voting for spending on roads and water are less partisan than those on education and housing, and these votes are more correlated with each other than with national partisanship.
-                </details>
-                <!-- <li>Preference Aggregation: A Seats Votes Curve for Issues. (with Stephen Ansolabehere). Full paper available upon request</li> -->
-                <!-- <details><summary>Abstract</summary> How well does the U.S. electoral system of states and congressional districts aggregate voters' policy preferences? A century of research has studied how districts aggregate votes for parties into legislative seats, using the well-known seats-votes curve.  This paper develops the analog for issues, called the Issue Aggregation Curve, from the spatial model. The one-dimensional model characterizes choice over specific bills; the multidimensional model characterizes choice between two alternatives that consist of bundles of issues, such as party platforms or ideologies. We estimate the issue aggregation curves for 103 issues using data from the  CCES from 2006 to 2022.  The issue aggregation curves for the U.S. Senate and House exhibit little or no bias and have steep slopes, even steeper than the seats-votes curves.  These patterns reveal that the Senate and House districts magnify, rather than interfere with, the expression of the policy preferences of the majority. </details> -->
-                <!-- <li><a href="https://arxiv.org/abs/2105.05829">Synthetic Area Weighting for Measuring Public Opinion in Small Areas</a> (with Soichiro Yamauchi). [<a href ="papers/kuriwaki_syntharea_handout.pdf">Slides</a>]</li>  -->
-                <!-- <details><summary>Abstract</summary>  -->
-                  <!-- The comparison of subnational areas is ubiquitous, but survey samples of these areas are often biased or prohibitively small.  Researchers turn to methods such as multilevel regression and poststratiﬁcation (MRP) to improve the efficiency of estimates by partially pooling data across areas via random effects.  However, the random effect approach can pool observations only through area-level aggregates. We instead propose a weighting estimator, the <i>synthetic area estimator</i>, which weights on variables measured only in the survey to partially pool observations <i>individually</i>. The proposed method consists of two-step weighting: first to adjust differences across areas and then to adjust for differences between the sample and population. Unlike MRP, our estimator can directly use the national weights that are often estimated from pollsters using proprietary information. Our approach also clarifies the assumptions needed for valid partial pooling, without imposing an outcome model. We apply the proposed method to estimate the support for immigration policies at the congressional district level in Florida. Our empirical results show that small area estimation models with insufficient covariates can mask opinion heterogeneities across districts.  -->
-                <!-- </details> -->
-              <li data-bibtex-key="ansolabehere2027representation"><a href="https://press.uchicago.edu/ucp/books/book/chicago/R/bo282752615.html"><i>Representation in America: Majority Rule in a Divided Political System</i></a> (with Stephen Ansolabehere). Book Manuscript, University of Chicago Press. Publication February 2027.</li>
-              </ol>
 
       <div align="left">
         <h4>Work in Progress</h4>
