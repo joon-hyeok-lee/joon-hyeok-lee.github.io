@@ -1,11 +1,11 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "Shiro Kuriwaki"
+title                    : "Joon Hyeok Lee"
 title_separator          : "-"
-name                     : "Shiro Kuriwaki"
-url                      : "https://kuriwaki.github.io"
+name                     : "Joon Hyeok Lee"
+url                      : "https://joon-hyeok-lee.github.io"
 baseurl                  : "/"
-repository               : "kuriwaki/kuriwaki.github.io"
+repository               : "joon-hyeok-lee/joon-hyeok-lee.github.io"
 logo                     : "/favicon.ico"
 github                   : [metadata]
 
