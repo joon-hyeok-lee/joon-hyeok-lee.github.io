@@ -1,1 +1,1 @@
-<https://www.joon-hyeok-lee.github.io>
+<https://joon-hyeok-lee.github.io>
